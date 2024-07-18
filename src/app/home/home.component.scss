@@ -1,0 +1,44 @@
+/* app.component.css */
+
+/* Apply styles to the entire calendar component */
+::ng-deep .p-calendar {
+    width: 100%;
+    border: 2px solid #000000;
+    border-radius: 4px;
+  }
+  
+  /* Customize the input field */
+  ::ng-deep .p-inputtext {
+    border-color: #007bff !important;
+    border-radius: 4px !important;
+  }
+  
+  /* Customize the calendar popup */
+  ::ng-deep .p-datepicker {
+    border-color: #007bff;
+    border-radius: 4px;
+  }
+  
+  /* Customize the calendar header */
+  ::ng-deep .p-datepicker-header {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  /* Customize the calendar cells */
+  ::ng-deep .p-datepicker td span {
+    color: #007bff;
+  }
+  
+
+  ::ng-deep .dropdown-menu {
+    width: 300px;
+  }
+  ::ng-deep .input-group {
+    display: flex;
+    align-items: center;
+  }
+  ::ng-deep .form-check-label {
+    margin-left: 0.5rem;
+  }
+  
